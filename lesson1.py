@@ -69,7 +69,7 @@
 # print(mystr.title())            har bir sozni bosh harf bilan ogiradi
 # print(str.count('o'))         #shu iboradan nechtaligini sanaydi    ///  4   ///
 # print(str.endswith(''))   #oxirgi so'z shu bolsa tru qaytaradi   /// true ///
-str = "salom boqiy buxoro"
+# str = "salom boqiy buxoro"
 
 # print(str.startswith('The'))     #birinchi soz shu bolsa tru qaytaradi
 
@@ -82,3 +82,24 @@ str = "salom boqiy buxoro"
 # print(mystr.strip())  # The quik brown fox jumps over the lazy dog
 # mystr = 'The, quik brown fox jumps over the lazy dog'
 # print(mystr.partition('ik'))
+
+
+# lesson3
+# list metodlari
+# append() Ro'yxat oxiriga element qo'shadi
+# insert() Belgilangan joyga element qo'shadi
+# remove() Belgilangan qiymatga ega elementni olib tashlaydi
+# pop() Belgilangan holatda elementni olib tashlaydi
+# del ochiradi
+# list1= ['salom',1,3]
+# print(list1)
+# del list1[1]
+# print(list1)
+#  clear() Barcha elementlarni ro'yxatdan olib tashlaydi
+# copy() Ro'yxatning nusxasini qaytaradi
+# reverse() Reverses the order of the list
+# sort() Ro'yxatni saralash
+# extend() Ro'yxat elementlarini (yoki biron bir takrorlanadigan) joriy ro'yxatning oxiriga qo'shing
+# os  = ["windows","linux","MacOs"]
+# os.extend(["salom"])
+# print(os)
