@@ -1,9 +1,8 @@
-
 # a = 2
 # b = 4
 # c = a+b
 
-#x,y,z = 'salom',3,4.5
+# x,y,z = 'salom',3,4.5
 # x=y=z="hello world"
 
 # print(x,y,z,sep="+")
@@ -84,9 +83,55 @@
 # print(mystr.partition('ik'))
 
 
+# a = [1,2,3,4,5]
+
+# os = ["windows","linux","MacOs"]
+# os.append("dopix")
+# os.insert(1,'doppi')
+# os.remove("linux")
+# os.pop(0)
+# print(os)
+# del os
+# print(os)
+# os.clear()
+# a = os.copy()
+# os.reverse()
+# jadval = ['Obidov Ismoil', 'Sharopov Ruxshod', 'Axmadov Abduvoxid', 'Muxtorov Sulaymon', 'Abdulloyev Timur']
+# jadval.sort()
+# jadval.reverse()
+# jadval2 = [1,2,3,4,5]
+# jadval.extend("salom")
+# print(jadval)
+from math import *
+
+# a = int(input('a = '))
+# b = int(input('b = '))
+# c = int(input('c = '))
+#
+# d = sqrt(b ** 2 - 4 * a * c)
+# if d > 0:
+#     if a > 0 or a < 0:
+#         x1 = (-b + d) / 2 * a
+#         x2 = (-b - d) / 2 * a
+#         print(f"x1 = {x1} x2= {x2}")
+#     elif a == 0:
+#         print('a nolga teng bolmasligi kk')
+# elif d < 0:
+#     print('tenglama ildizlari yoq')
+# else:
+#     if a > 0 or a < 0:
+#         x = -b / 2 * a
+#         print(x)
+#
+#     elif a == 0:
+#         print('a nolga teng bolmasligi kk')
+# print(os.append('do\'pix'))
+
+
 # lesson3
+
 # list metodlari
-# append() Ro'yxat oxiriga element qo'shadi
+# append() #Ro'yxat oxiriga element qo'shadi
 # insert() Belgilangan joyga element qo'shadi
 # remove() Belgilangan qiymatga ega elementni olib tashlaydi
 # pop() Belgilangan holatda elementni olib tashlaydi
